@@ -1,0 +1,17 @@
+# Environnement virtuel
+.venv/
+venv/
+
+# Fichiers temporaires Python
+__pycache__/
+*.py[cod]
+
+# Base de données locale
+db.sqlite3
+
+# Configuration locale
+.env
+
+# Fichiers système
+.DS_Store
+Thumbs.db
