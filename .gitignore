@@ -1,17 +1,7 @@
-# Environnement virtuel
-.venv/
-venv/
+from django.urls import path
+from . import views
 
-# Fichiers temporaires Python
-__pycache__/
-*.py[cod]
-
-# Base de données locale
-db.sqlite3
-
-# Configuration locale
-.env
-
-# Fichiers système
-.DS_Store
-Thumbs.db
+urlpatterns = [
+    path('', views.home, name='home'),
+    path('about/', views.about, name='about'),
+]
